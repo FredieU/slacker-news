@@ -1,0 +1,108 @@
+:root {
+  /* Variable for reocurring colour theme (header & buttons) */
+  --theme-colour: rgb(70, 70, 70);
+}
+
+.header {
+  background-color: var(--theme-colour);
+  height: 10vh;
+  /* Align header title vertically within header */
+  line-height: 10vh;
+  font-size: 1rem;
+  color: white;
+}
+
+.header-title {
+  float: left;
+  margin-left: 0.5em;
+}
+
+.navigation{
+	float: right;
+}
+
+header a{
+  /* Remove <a> tag underline and default blue colour */
+  color: #fff;
+	text-decoration: none;
+	font-size: 1em;
+}
+
+header li{
+  /* Display alongside each other as opposed to a vertical list */
+	display: inline;
+	padding: 0 20px 0 20px;
+}
+
+.container {
+  /* Centralise main content, automatically set side margins */
+  width: 90%;
+  margin: 0 auto 0 auto;
+}
+
+.container h2 {
+  margin: 1em 0 1em 0;
+}
+
+.story-item {
+  margin-bottom: 1em;
+}
+
+#story-title {
+  margin-bottom: 0px;
+}
+
+#story-title a, .story-item a {
+	/* Remove <a> tag underline and default blue colour */
+  color: #000;
+	text-decoration: none;
+}
+
+/* 'form-*' class names shared between StoryPage and NewStory components */
+.form-group {
+  margin: 2em 0 2em 0;
+}
+
+.form-input-sm{
+  border-radius: 5px;
+  height: 3vh;
+  font-size: 1em;
+  padding-left: 0.5em;
+  border: 1px solid black;
+}
+
+.form-label-sm {
+  /* Labels only inline by default, cannot set width */
+  display: inline-block;
+  width: 80px;
+}
+
+.form-label-sm, .form-input-sm {
+  margin: 0.5em 0.5em 0.5em 0;
+}
+
+.form-input-lg {
+  display: block;
+  padding: 0.5em;
+  margin: 0.5em 0 0.5em 0;
+  height: 100px;
+  width: 50vw;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+.btn {
+  background-color: var(--theme-colour);
+  color: white;
+  height: 35px;
+  margin: 0.5em 0 0.5em 0;
+  padding: 0 1em 0 1em;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 100%;
+  border-radius: 10px;
+}
+
+.comment-item {
+  margin: 1em 0 0.5em 0;
+}

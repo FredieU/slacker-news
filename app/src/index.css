@@ -1,0 +1,13 @@
+* {
+  /* Reset margin and padding on all elements to avoid positioning issues
+    due to default margin/padding */
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /* Applied imported Google font with backup alternative */
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
